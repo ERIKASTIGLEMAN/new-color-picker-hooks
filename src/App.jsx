@@ -12,6 +12,7 @@ function ColorPickerHooks() {
     setSaturation(Math.floor(Math.random() * 100))
     setLightness(Math.floor(Math.random() * 100))
   }
+  const backgroundColor = `hsl hue: ${hue}, sat: ${saturation}%, light: ${lightness}%`
 
   document.body.style.backgroundColor = `hsl(${hue}, ${saturation}%, ${lightness}% )`
 
@@ -66,7 +67,7 @@ function ColorPickerHooks() {
             </h2>
           </label>
           <h2>
-            <div className="brightLetter">
+            <div className="bright">
               <span>L</span>
               <span>I</span>
               <span>G</span>
@@ -88,6 +89,7 @@ function ColorPickerHooks() {
           </h2>
         </section>
       </div>
+      <code>{backgroundColor}</code>
       <footer>
         <button onClick={randomColor}> Pick A Random Color</button>
       </footer>
