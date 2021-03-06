@@ -19,11 +19,24 @@ function ColorPickerHooks() {
   return (
     <main>
       <div>
-        {/* header */}
-        <h1 className="stripe-text>">Color Pickers</h1>
+        <header>
+          <div className="text text-1">C</div>
+          <div className="text text-2">o</div>
+          <div className="text text-3">l</div>
+          <div className="text text-4">o</div>
+          <div className="text text-1">r</div>
 
+          <div className="text text-2">P</div>
+          <div className="text text-3">i</div>
+          <div className="text text-4">c</div>
+          <div className="text text-2">k</div>
+          <div className="text text-1">e</div>
+          <div className="text text-2">r</div>
+
+          {/* <h1 className="title">Color Pickers</h1> */}
+        </header>
         {/* add sliders */}
-        <section>
+        <section className="frame">
           <label>
             <h2>
               <div className="rainbow-letters">
@@ -41,7 +54,6 @@ function ColorPickerHooks() {
               />
             </h2>
           </label>
-
           <label>
             <h2>
               <div className="fadingColor">
@@ -66,33 +78,36 @@ function ColorPickerHooks() {
               />
             </h2>
           </label>
-          <h2>
-            <div className="bright">
-              <span>L</span>
-              <span>I</span>
-              <span>G</span>
-              <span>H</span>
-              <span>T</span>
-              <span>N</span>
-              <span>E</span>
-              <span>S</span>
-              <span>S</span>
-            </div>
-            <input
-              name="Lightness"
-              type="range"
-              value={lightness}
-              min="0"
-              max="100"
-              onChange={(event) => setLightness(event.target.value)}
-            />
-          </h2>
+          <label>
+            <h2>
+              <div className="bright">
+                <span>L</span>
+                <span>I</span>
+                <span>G</span>
+                <span>H</span>
+                <span>T</span>
+                <span>N</span>
+                <span>E</span>
+                <span>S</span>
+                <span>S</span>
+              </div>
+              <input
+                name="Lightness"
+                type="range"
+                value={lightness}
+                min="0"
+                max="100"
+                onChange={(event) => setLightness(event.target.value)}
+              />
+            </h2>
+          </label>
         </section>
       </div>
-      <code>{backgroundColor}</code>
-      <footer>
+      <div className="randomize">
         <button onClick={randomColor}> Pick A Random Color</button>
-      </footer>
+        <code>{backgroundColor}</code>
+        <footer></footer>
+      </div>
     </main>
   )
 }
