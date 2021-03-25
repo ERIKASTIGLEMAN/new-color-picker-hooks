@@ -16,7 +16,8 @@ html {
 
 header {
   text-align: center;
-  width: 100%;
+  width: fit-content;
+  padding-left: 15rem;
   height: 100%;
 }
 
@@ -24,16 +25,14 @@ section {
   background: rgb(191, 232, 235);
   border-radius: 20px;
 
-  width: 34%;
+  width: 90%;
   height: 350px;
-  margin-left: 33%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 .frame {
   box-shadow: 2px 2px 10px 10px white;
-  // border: 5px solid black;
 }
 
 .rainbow-letters {

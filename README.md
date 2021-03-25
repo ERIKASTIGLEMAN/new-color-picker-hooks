@@ -1,17 +1,24 @@
-Project: Color Picker Hooks
+# <font color="green"> Color Picker with React Hooks </font>
 
-Project Focus: Create an HSL(a) color picker with React Hooks
+![Color Picker](./images/ColorPickerV.gif)
 
-Objectives
+Project Focus:
 
-Respond to user events in React
+- Create an HSL(a) color picker with React Hooks
 
-<!-- Use hooks in react to drive changes to a user interface
-Use props to drive inline styles to dynamically update the appearance of DOM elements
-Understand RGB vs HSL color models
-Use controlled form inputs in React -->
+Objectives:
 
-Represent the three values, hue, saturation, and lightness with hooks.
-Add three sliders that update their respective values (hue, saturation, and lightness).
-Display the color on the screen, in both text (i.e. hsl(50, 8%, 20%)) and the actual color as a background color on an element.
-Add a button that picks a new random color.
+- Use hooks in react to drive changes to a user interface
+- Use props to drive inline styles to dynamically update the appearance of DOM elements
+
+Technologies:
+
+Color picker is an App which represent the three values, hue, saturation, and lightness with hooks. These three values include sliders that update their respective values.
+
+Additional Resources:
+
+- <a href=" https://hslpicker.com">HSL Color Picker</a>
+
+- <a href="https://reactjs.org/docs/dom-elements.html#style">Inline Styles in React</a>
+
+- <a href="https://developer.mozilla.org/en-US/docs/web/css/color_value">HSL colors on MDN</a>
