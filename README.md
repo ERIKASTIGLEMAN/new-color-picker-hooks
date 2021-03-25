@@ -17,7 +17,7 @@ Color picker is an App which represent the three values, hue, saturation, and li
 
 Additional Resources:
 
-- <a href=" https://hslpicker.com">HSL Color Picker</a>
+- <a href="https://hslpicker.com">HSL Color Picker</a>
 
 - <a href="https://reactjs.org/docs/dom-elements.html#style">Inline Styles in React</a>
 
